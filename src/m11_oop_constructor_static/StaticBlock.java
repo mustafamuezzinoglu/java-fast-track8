@@ -2,7 +2,7 @@ package m11_oop_constructor_static;
 /*
 static block/static initializer block.
 - runs only once before everything else when class is used
-- used to initialize static variables or load data(ConfigReader class)
+- used to initialize static variables or load data1(ConfigReader class)
  */
 public class StaticBlock {
     public static int num;

@@ -70,7 +70,7 @@ public class Loops {
 
         //        for(DATATYPE name : DATA STRUCTURE){}
 
-        // We will recap array and collections in later days and use this loop. Remember the main idea of this loop type is to iterate through each element of the given data structure, from beginning to end. The element is represented as the given name during each iteration
+        // We will recap array and collections in later days and use this loop. Remember the main idea of this loop type is to iterate through each element of the given data1 structure, from beginning to end. The element is represented as the given name during each iteration
 
         for(int i = 0; i < 5; i++) { // outer loop
             for(int j = 0; j < 3; j++) { // inner loop
