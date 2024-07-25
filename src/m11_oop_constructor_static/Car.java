@@ -1,6 +1,6 @@
 package m11_oop_constructor_static;
 /*
-data and variables
+data1 and variables
 // instance variables
 // instance method
     -toString()
