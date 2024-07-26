@@ -1,4 +1,4 @@
-package m17_sfss;
+package m17_collections;
 
 import java.util.*;
 
@@ -6,7 +6,7 @@ public class ListImplementations {
 
     public static void main(String[] args) {
         //List<Character> list1 = new List<>(); ERROR: List is cannot be isntantiated
-        List<Character> list1 = new ArrayList<>(7);
+        List<Character> list1 = new ArrayList<>();
         list1.add('a');
         list1.add('b');
         list1.add(null);
@@ -14,6 +14,7 @@ public class ListImplementations {
         list1.add('c');
         list1.add('d');
         list1.add('e');
+
         System.out.println(list1);
 
         System.out.println("============================");
@@ -46,10 +47,11 @@ public class ListImplementations {
         stack.push("git");
         stack.push("gittop");
         System.out.println(stack);
+//peek() -> returns value on top of stack. does not remove it
+        System.out.println("Top value using peek is = "+ stack.peek() + ", and it`s still in array");
 
-        System.out.println("Top value = "+ stack.peek());
-
-        System.out.println("Top value = "+ stack.pop());
+//pop() -> returns value on top of stack. then removes it from stack
+        System.out.println("Top value using pop is = "+ stack.pop()+ ", but its removed now");
         System.out.println(stack);
 
         System.out.println(stack.pop()+ " is removed from top of stack");
