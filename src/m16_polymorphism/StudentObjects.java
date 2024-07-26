@@ -22,7 +22,7 @@ public class StudentObjects {
 
         //UPCASTING. changing reference from child to parent class type
         Person p = student;
-        System.out.println(p.getAge());
+        System.out.println(p.getName()+ " is " + p.getAge());
 
         //DOWNCASTING. changing reference from parent to child
         //benefit is ability to access child reference methods
@@ -30,7 +30,8 @@ public class StudentObjects {
         Student st = (Student) person;
         st.setSchool("Oxford");
         System.out.println(st.getName());
+        System.out.println(st.getName() + " is " + st.getAge());
 
-        //Student student2 = (Student) new Person(); classcast exception
+//        Student student2 = (Student) new Person(); // classcast exception
     }
 }

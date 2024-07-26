@@ -2,10 +2,10 @@ package m17_sfss;
 
 import java.util.*;
 
-public class ListImplementation {
+public class ListImplementations {
 
-    //List<Character> list1 = new List<>(); ERROR: List is cannot be isntantiated
     public static void main(String[] args) {
+        //List<Character> list1 = new List<>(); ERROR: List is cannot be isntantiated
         List<Character> list1 = new ArrayList<>(7);
         list1.add('a');
         list1.add('b');
